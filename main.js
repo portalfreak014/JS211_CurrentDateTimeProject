@@ -15,14 +15,17 @@ const displayDate = () => {
 
 
 // Write a JavaScript program to convert a number to a string.
-const numberToString = (1) => {
-    return "1";
-}
+
+let number = 2
+let numberString = number.toString();
+console.log(typeof(numberString))
 
 
 // Write a JavaScript program to convert a string to the number.
 
-
+let string = "2";
+let stringNumber = Number(string);
+console.log(typeof(stringNumber));
 
 // Write a JavaScript program that takes in different datatypes and prints out whether they are a:
   // * Boolean
@@ -31,13 +34,23 @@ const numberToString = (1) => {
   // * Number
   // * NaN
   // * String
-// NOTE: Exlclude this function while completing Part II. The Data Type will always return as a String. If you want a challenge, come back to this function and start in the console. Then see what you can make of it. Again, simply skip this function while completing Part II of this project.
+
+  function definedatatype(argument) {
+    console.log(typeof(argument));
+  }
+
+// NOTE: Exclude this function while completing Part II. The Data Type will always return as a String. If you want a challenge, come back to this function and start in the console. Then see what you can make of it. Again, simply skip this function while completing Part II of this project.
   
 
   
 // Write a JavaScript program that adds 2 numbers together.
 
+function addTwoNumbersTogether(Num1,Num2){
+const sum = Num1 + Num2
+return sum
+}
 
+console.log(addTwoNumbersTogether(6,2))
 
 // Write a JavaScript program that runs only when 2 things are true.
 
