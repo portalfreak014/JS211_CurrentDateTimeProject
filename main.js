@@ -15,8 +15,8 @@ const displayDate = () => {
 
 
 // Write a JavaScript program to convert a number to a string.
-const numberToString = (Num1) => {
-    return "Num1";
+const numberToString = (1) => {
+    return "1";
 }
 
 
