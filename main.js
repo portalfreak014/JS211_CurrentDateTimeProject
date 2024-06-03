@@ -46,21 +46,44 @@ console.log(typeof(stringNumber));
 // Write a JavaScript program that adds 2 numbers together.
 
 function addTwoNumbersTogether(Num1,Num2){
-const sum = Num1 + Num2
-return sum
+  const sum = Num1 + Num2
+  return sum
 }
 
-console.log(addTwoNumbersTogether(6,2))
+console.log(addTwoNumbersTogether(3,2))
 
 // Write a JavaScript program that runs only when 2 things are true.
 
-
+function logicProgramBothAnd(a, b) {
+  if (a && b) {
+    console.log("Nice")
+  }
+  else {
+    console.log("try again")
+  }
+}
 
 // Write a JavaScript program that runs when 1 of 2 things are true.
 
-
+function logicProgramEitherOr(a, b) {
+  if (a || b) {
+    console.log("Nice")
+  }
+  else {
+    console.log("try again")
+  }
+}
 
 // Write a JavaScript program that runs when both things are not true.  
+
+function logicProgramBothWrong(a, b) {
+  if (a === false && b === false) {
+    console.log("Nice")
+  }
+  else {
+    console.log("try again")
+  }
+}
 
 // ***************************
 //         PART TWO
